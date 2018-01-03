@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{Rgenerator}\n\\alias{Rgenerator}\n%- Also NEED an '\\alias' for EACH other topic documented here.\n\\title{\n%% Random Number Generator\n}\n\\description{\n%%  \nGenerates random numbers using the linear congruential method. \nFirst we create a vector to write the generated numbers to it later on.\nWe give the generator a seed value, which is what th d <- as.numeric(Sys.time()) * 1000 line does.\nThen, in a loop that is executed n times(N is the number of numbers requested), you apdate the value of d to (a*d + c)mod m(It's important to choose the right values for a and d and c)\nSo d is a random number between zero and m-1. The d produced in the i'th loop is stored in the i'th index of the vector. \nDone.\n}\n\\usage{\nRgenerator(x)\n}\n%- maybe also 'usage' for other objects documented here.\n\\arguments{ The only argument is n, number of random integers you need to get.\n  \\item{x}{\n%%     ~~Describe \\code{x} here~~\n}\n}\n\\details{\n%%  ~~ If necessary, more details than the description above ~~\n}\n\\value{\nthe return value is a vector with n elements(i.e random numbers)\n%%  ~Describe the value returned\n%%  If it is a LIST, use\n%%  \\item{comp1 }{Description of 'comp1'}\n%%  \\item{comp2 }{Description of 'comp2'}\n%% ...\n}\n\\references{s\n%% ~put references to the literature/web site here ~\n}\n\\author{\n%%  ~~who you are~~\n}\n\\note{\n%%  ~~further notes~~\n}\n\n%% ~Make other sections like Warning with \\section{Warning }{....} ~\n\n\\seealso{\n%% ~~objects to See Also as \\code{\\link{help}}, ~~~\n}\n\\examples{\n##---- Should be DIRECTLY executable !! ----\n##-- ==>  Define data, use random,\n##--\tor do  help(data=index)  for the standard data sets.\n\n## The function is currently defined as\nfunction (x) \n{\n  }\n}\n% Add one or more standard keywords, see file 'KEYWORDS' in the\n% R documentation directory.\n\\keyword{ ~kwd1 }% use one of  RShowDoc(\"KEYWORDS\")\n\\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line\n",
+    "created" : 1514971665806.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1307397667",
+    "id" : "5892316F",
+    "lastKnownWriteTime" : 4991481663225818177,
+    "last_content_update" : 1514974754011,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
