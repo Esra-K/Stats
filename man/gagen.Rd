@@ -8,7 +8,9 @@ This function generates a number following gamma distribution. Summation of k i.
 \usage{
 gagen(x)
 }
-\arguments{ k(number of exponential i.i.d random variables, landa(parameter of the underlying exponential distribution))
+\arguments{ 
+k(number of exponential i.i.d random variables, 
+landa(parameter of the underlying exponential distribution))
 }
 
 \value{
@@ -17,6 +19,8 @@ This function generates a number following gamma distribution
 
 
 \examples{
-
+a <- gagen(100, 0.76)
+a
+visualgagen(a)
 }
 

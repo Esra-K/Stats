@@ -20,5 +20,8 @@ returns the number of successes( the binomial random variable)of n experiments
 
 \examples{
 
+a <- bigen(500, 0.4)
+a
+visualbigen(a)
 }
 

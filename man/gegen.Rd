@@ -9,13 +9,16 @@ Geometric random variable producer: the function has to do the Bernoulli experim
 \usage{
 gegen(x)
 }
-
+\arguments{
+p probability of the underlying Binomial RV.
 }
 
 \value{ the geometric random variable(number of failures before a success)
 }
 
 \examples{
-
+a <- gegen(0.4)
+a
+visualgegen(a)
 }
 

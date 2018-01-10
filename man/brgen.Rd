@@ -16,11 +16,14 @@ p (the probability of the bernoulli variable being a one)
 }
 
 \value{
-
+a Bernoulli random variable is returned.
 }
 
 
 \examples{
 
+a <- brgen(0.7)
+a
+visualbrgen(a)
 }
 

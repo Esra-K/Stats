@@ -19,6 +19,8 @@ Returns a positive number following exponential distribution
 }
 
 \examples{
-
+a <- expgen(250)
+a
+visualexpgen(a)
 }
 

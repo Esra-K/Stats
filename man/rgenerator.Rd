@@ -28,5 +28,6 @@ The return value is a vetor with n elements(i.e. random numbers)
 }
 
 \examples{
-
+a <- rgenerator(1000)
+a
 }

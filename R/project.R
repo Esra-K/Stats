@@ -20,10 +20,6 @@ dugen <- function(n, lowerbound, upperbound){
   return(rng2)
 }
 
-visualdugen2<- function(n, lowerbound, upperbound){
-  t<- dugen(n, lowerbound, upperbound)
-  plot(t)
-}
 
 visualdugen<- function(n, lowerbound, upperbound){
   a<- dugen(n, lowerbound, upperbound)
@@ -214,17 +210,18 @@ visualpogen<- function(landa,t){
     geom_histogram()
 }
 
-nogen <- function(s,u){
-  a <- pogen(s,1)
-  a <- a - s + u
+nogen <- function(mean,sd){
+  a <- pogen(lambda, 10)
+  a <- (a - lambda)/lambda
+  a <- a *sd + sd
   return(a)
 }
 
 visualnogen<- function(s,u){
   a<- rnorm(1000 , u , s)
-#  for(i in 1:1000){
- #   a[i] <- nogen(s,u)
-  #}
+  for(i in 1:1000){
+    a[i] <- nogen(s,u)
+  }
   
   v<- data.frame("rvnogen"=a)
   library(ggplot2)

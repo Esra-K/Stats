@@ -22,4 +22,8 @@ returns number of occurr
 
 
 \examples{
+
+a <- pogen(250, 1000)
+a
+visualpogen(a)
 }
