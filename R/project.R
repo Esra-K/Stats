@@ -211,9 +211,9 @@ visualpogen<- function(landa,t){
 }
 
 nogen <- function(mean,sd){
-  a <- pogen(lambda, 10)
-  a <- (a - lambda)/lambda
-  a <- a *sd + sd
+  a <- pogen(mean, 10)
+  a <- (a - mean)/mean
+  a <- a *sd + mean
   return(a)
 }
 

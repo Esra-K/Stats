@@ -1,0 +1,12 @@
+name: distributions
+title: distributions
+username:
+account: amar2018
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 254181
+bundleId: 1163844
+url: https://amar2018.shinyapps.io/distributions/
+when: 1515185265.11889
+asMultiple: FALSE
+asStatic: FALSE
